@@ -30,3 +30,5 @@ router.post("/contact", (req: Request, res: Response) => {
     console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
   });
 });
+
+module.exports=router;
