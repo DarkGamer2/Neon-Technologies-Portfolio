@@ -1,0 +1,15 @@
+
+    [
+        {
+            "projectName":"QR Code Project",
+            "projectThumbnail":"/src/assets/Thumbnails/QR Code.png",
+            "projectLink":"https://magnificent-babka-310e7e.netlify.app/",
+            "projectID":1
+        },
+        {
+            "projectName":"Results Summary",
+            "projectThumbnail":"/src/assets/Thumbnails/result summary.png",
+            "projectLink":"https://wonderful-malasada-e5f56c.netlify.app/",
+            "projectID":2
+        }
+    ]
