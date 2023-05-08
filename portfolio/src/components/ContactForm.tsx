@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router";
 const ContactForm = () => {
   const [clientFirstName, setClientFirstName] = useState<string>("");
   const [clientLastName, setClientLastName] = useState<string>("");
@@ -9,6 +10,7 @@ const ContactForm = () => {
   const [clientQuery, setClientQuery] = useState<string>("");
   const [buttonText, setButtonText] = useState<string>("Submit Form");
 
+  const navigate = useNavigate();
   const handleSubmit = (e: React.MouseEventHandler) => {
     const ClientInfo = {
       clientFirstName,
@@ -17,9 +19,13 @@ const ContactForm = () => {
       clientEmail,
       clientQuery,
     };
-    axios.post("http://localhost:4500/api/receiveinfo", {
-      ClientInfo,
-    });
+    axios
+      .post("http://localhost:4500/api/receiveinfo", {
+        ClientInfo,
+      })
+      .then(() => {
+        navigate("/");
+      });
   };
   return (
     <div>
