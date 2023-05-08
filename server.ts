@@ -8,11 +8,11 @@ const contactRoutes = require("./routes/contactRoutes");
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "../portfolio/dist")));
+app.use(express.static(path.join(__dirname, "./portfolio/dist")));
 app.use("/api/neon_tech", contactRoutes);
 
 app.get("*", (req: Request, res: Response) => {
-  res.sendFile(path.join(__dirname, "../portfolio/dist/index.html"));
+  res.sendFile(path.join(__dirname, "./portfolio/dist/index.html"));
 });
 dotenv.config();
 
