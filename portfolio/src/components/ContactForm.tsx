@@ -11,7 +11,8 @@ const ContactForm = () => {
   const [buttonText, setButtonText] = useState<string>("Submit Form");
 
   const navigate = useNavigate();
-  const handleSubmit = (e: React.MouseEventHandler) => {
+  const handleSubmit = (e: React.MouseEvent) => {
+    e.preventDefault();
     const ClientInfo = {
       clientFirstName,
       clientLastName,
