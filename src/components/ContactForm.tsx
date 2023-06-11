@@ -21,9 +21,12 @@ const ContactForm = () => {
       clientQuery,
     };
     axios
-      .post("http://localhost:4500/api/receiveinfo", {
-        ClientInfo,
-      })
+      .post(
+        "https://neon-technologies-website-api-production.up.railway.app/api/neon_tech/contact",
+        {
+          ClientInfo,
+        }
+      )
       .then(() => {
         navigate("/");
       });
