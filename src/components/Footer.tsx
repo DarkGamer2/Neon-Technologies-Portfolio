@@ -13,7 +13,7 @@ const Footer = () => {
                 alt="FlowBite Logo"
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Flowbite
+                Neon Technologies Limited
               </span>
             </a>
           </div>
@@ -63,17 +63,20 @@ const Footer = () => {
             </div>
             <div>
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
-                Legal
+                Contact Information
               </h2>
               <ul className="text-gray-600 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Privacy Policy
+                  <a
+                    href="mailto:kameer-hosien@outlook.com"
+                    className="hover:underline"
+                  >
+                    Email: kameer-hosien@outlook.com
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:underline">
-                    Terms &amp; Conditions
+                    Mobile Number: +1(868) 366-6331
                   </a>
                 </li>
               </ul>

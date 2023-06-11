@@ -11,11 +11,9 @@ const About = () => {
           Who I Am
         </h1>
         <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-            quia sed soluta omnis quos molestias voluptatem! Cumque aut
-            voluptatum nostrum, odio in impedit quisquam eligendi maxime,
-            consequuntur eum, repudiandae eius.
+          <p className="text-center">
+            I am a full stack developer that is currently 22 years old. I have a
+            passion for software development and technology.
           </p>
         </div>
       </div>
