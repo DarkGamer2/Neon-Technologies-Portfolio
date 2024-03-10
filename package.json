@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://neontechnologieslimited.com",
+  "homepage": "https://darkgamer2.github.io/Neon-Technologies-Limited-Portfolio-Website/",
   "type": "module",
   "scripts": {
     "dev": "vite",
