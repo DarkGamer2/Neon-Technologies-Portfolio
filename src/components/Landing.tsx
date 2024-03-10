@@ -4,8 +4,8 @@ import CSS from "../assets/css3-icon-28.jpg";
 import JS from "../assets/javascript-icon-png-23.jpg";
 import reactIcon from "../assets/React-icon.svg.png";
 import Node from "../assets/png-clipart-nodejs.png"
-import Express from "../assets/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png";
-import Mongo from "../assets/png-transparent-mongodb-database-nosql-postgresql-mongo-text-logo-business-thumbnail.png";
+import Express from "../assets/png-transparent-express.png";
+import Mongo from "../assets/png-transparent-mongodb.png";
 import Tailwind from "../assets/images.png";
 const Landing = () => {
   return (
