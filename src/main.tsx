@@ -12,7 +12,7 @@ import Services from "./pages/Services";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <App/>,
   },
   {
     path: "/projects",
