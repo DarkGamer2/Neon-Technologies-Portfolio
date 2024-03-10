@@ -3,7 +3,7 @@ import HTML from "../assets/html5-icon-13.jpg";
 import CSS from "../assets/css3-icon-28.jpg";
 import JS from "../assets/javascript-icon-png-23.jpg";
 import reactIcon from "../assets/React-icon.svg.png";
-import Node from "../assets/png-clipart-node-js-javascript-express-js-mongodb-github-github-angle-text-thumbnail.png";
+import Node from "../assets/png-clipart-nodejs.png"
 import Express from "../assets/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png";
 import Mongo from "../assets/png-transparent-mongodb-database-nosql-postgresql-mongo-text-logo-business-thumbnail.png";
 import Tailwind from "../assets/images.png";
