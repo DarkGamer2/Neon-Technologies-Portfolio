@@ -1,0 +1,213 @@
+[
+  {
+    "projectName": "QR Code Project",
+    "projectThumbnail": "/public/assets/Thumbnails/QR Code.png",
+    "projectLink": "https://magnificent-babka-310e7e.netlify.app/",
+    "category": "Frontend",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/public/assets/React-icon.svg.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/public/assets/Tailwind_CSS_Logo.svg.png"
+      }
+    ],
+    "projectID": "1"
+  },
+  {
+    "projectName": "Results Summary",
+    "projectThumbnail": "/public/assets/Thumbnails/result_summary.png",
+    "projectLink": "https://wonderful-malasada-e5f56c.netlify.app/",
+    "category": "Frontend",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/public/assets/React-icon.svg.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/public/assets/Tailwind_CSS_Logo.svg.png"
+      }
+    ],
+    "projectID": "2"
+  },
+  {
+    "projectName": "Mike Phillip Limited Website",
+    "projectThumbnail": "/public/assets/Thumbnails/Mike Phillip Limited Thumbnail.png",
+    "projectLink": "",
+    "category": "Commercial",
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon": "/public/assets/html5-icon-13.jpg"
+      },
+      {
+        "name": "CSS",
+        "icon": "/public/assets/css3-icon-28.jpg"
+      },
+      {
+        "name": "Javascript",
+        "icon": "/public/assets/javascript-icon-png-23.jpg"
+      },
+      {
+        "name": "Node JS",
+        "icon": "/public/assets/png-clipart-nodejs.png"
+      },
+      {
+        "name": "Express JS",
+        "icon": "/public/assets/png-transparent-express.png"
+      }
+    ],
+    "projectID": "3"
+  },
+  {
+    "projectName": "Nation Drivers Company Limited Website",
+    "projectThumbnail": "/public/assets/Thumbnails/National Drivers Company Limited Thumbnail.png",
+    "projectLink": "",
+    "category": "Commercial",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/public/assets/React-icon.svg.png"
+      },
+      {
+        "name": "CSS",
+        "icon": "/public/assets/css3-icon-28.jpg"
+      },
+      {
+        "name": "Node JS",
+        "icon": "/public/assets/png-clipart-nodejs.png"
+      },
+      {
+        "name": "Express JS",
+        "icon": "/public/assets/png-transparent-express.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/public/assets/png-transparent-mongodb.png"
+      }
+    ],
+    "projectID": "4"
+  },
+  {
+    "projectName": "FleetStar Pro",
+    "projectThumbnail": "/public/assets/Thumbnails/FleetStar_Pro_Icon.png",
+    "projectLink": "",
+    "category": "Mobile",
+    "technologies": [
+      {
+        "name": "React Native",
+        "icon": "/public/assets/React-icon.svg.png"
+      },
+     {
+      "name":"Firebase",
+      "icon":"/public/assets/png-transparent-firebase-hd-logo-thumbnail.png"
+     },
+     {
+      "name":"React Navigation",
+      "icon":"/public/assets/React_Navigation.png"
+     }
+    ],
+    "platforms": [
+      {
+        "name": "iOS",
+        "icon": "/public/assets/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
+      },
+      {
+        "name": "Android",
+        "icon": "/public/assets/pngtree-android-icon-image_1288986.jpg"
+      }
+    ],
+    "projectID": "5"
+  },
+  {
+    "projectName": "Galactaneon",
+    "projectThumbnail": "",
+    "projectLink": "",
+    "category": "Personal",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/public/assets/React-icon.svg.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/public/assets/css3-icon-28.jpg"
+      },
+      {
+        "name": "Node JS",
+        "icon": "/public/assets/png-clipart-nodejs.png"
+      },
+      {
+        "name": "Express JS",
+        "icon": "/public/assets/png-transparent-express.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/public/assets/png-transparent-mongodb.png"
+      }
+    ],
+    "projectID": "6"
+  },
+  {
+    "projectName":"Product Tracker",
+    "projectThumbnail":"/public/assets/Thumbnails/ProductTrackerIcon.png",
+    "projectLink":"*",
+    "category":"Mobile",
+    "technologies": [
+      {
+        "name": "React Native",
+        "icon": "/public/assets/React-icon.svg.png"
+      },
+     {
+      "name":"Firebase",
+      "icon":"/public/assets/png-transparent-firebase-hd-logo-thumbnail.png"
+     },
+     {
+      "name":"React Navigation",
+      "icon":"/public/assets/React_Navigation.png"
+     }
+    ],
+    "platforms": [
+      {
+        "name": "iOS",
+        "icon": "/public/assets/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
+      },
+      {
+        "name": "Android",
+        "icon": "/public/assets/pngtree-android-icon-image_1288986.jpg"
+      }
+    ],
+    "projectID":"7"
+  },{
+    "projectName":"MEWZLINE",
+    "projectThumbnail":"/public/assets/Thumbnails/MEWZLINE_LOGO.jpg",
+    "projectLink":"*",
+    "category":"Commercial",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/public/assets/React-icon.svg.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/public/assets/css3-icon-28.jpg"
+      },
+      {
+        "name": "Node JS",
+        "icon": "/public/assets/png-clipart-nodejs.png"
+      },
+      {
+        "name": "Express JS",
+        "icon": "/public/assets/png-transparent-express.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/public/assets/png-transparent-mongodb.png"
+      }
+    ],
+    "projectID":"8"
+  }
+]

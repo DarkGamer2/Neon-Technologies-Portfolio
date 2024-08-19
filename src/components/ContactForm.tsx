@@ -22,13 +22,19 @@ const ContactForm = () => {
     };
     axios
       .post(
-        "https://neon-technologies-website-api-production.up.railway.app/api/neon_tech/contact",
+        // "https://neon-technologies-website-api-production.up.railway.app/api/neon_tech/contact",
+        "http://localhost:4000/api/neon_tech/contact",
         {
           ClientInfo,
         }
       )
-      .then(() => {
-        navigate("/");
+      .then((err) => {
+        if(err){
+          navigate("/error")
+        }
+        else{
+          navigate("/confirmed")
+        }
       });
   };
   return (

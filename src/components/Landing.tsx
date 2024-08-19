@@ -7,6 +7,7 @@ import Node from "../assets/png-clipart-nodejs.png"
 import Express from "../assets/png-transparent-express.png";
 import Mongo from "../assets/png-transparent-mongodb.png";
 import Tailwind from "../assets/images.png";
+import React from "react";
 const Landing = () => {
   return (
     <section className="flex">
@@ -21,7 +22,7 @@ const Landing = () => {
           </p>
         </div>
         <section className="content-start h-56 grid grid-cols-4 px-0 w-60 mx-10">
-          <div>
+          {/* <div>
             <img
               className="w-20 h-15 mx-2 my-3"
               src={HTML}
@@ -41,8 +42,8 @@ const Landing = () => {
               src={JS}
               alt="vanilla web stack"
             />
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <img className=" mx-2 my-3" src={reactIcon} alt="react" />
           </div>
           <div>
@@ -56,13 +57,13 @@ const Landing = () => {
           </div>
           <div>
             <img className=" mx-2 my-3" src={Mongo} alt="MongoDB" />
-          </div>
+          </div> */}
         </section>
       </div>
 
-      <div className="float-right ">
+      {/* <div className="float-right ">
         <img className="" src={PortfolioImage} alt="portfolio" />
-      </div>
+      </div> */}
     </section>
   );
 };

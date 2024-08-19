@@ -1,11 +1,21 @@
 import React from "react";
 import NavigationBar from "../components/NavigationBar";
-import Frontend from "../data/Frontend.json";
 import Project from "../components/Project";
 import Footer from "../components/Footer";
-import Commercial from "../data/Commercial.json";
-import Personal from "../data/Personal.json";
+import ProjectsData from "../data/Projects.json";
+
+interface Project {
+  projectID: string;
+  projectName: string;
+  projectThumbnail: string;
+  projectLink: string;
+  category: string;
+}
+
 const Projects = () => {
+  // Type ProjectsData explicitly as Project[]
+  const projects: Project[] = ProjectsData as Project[];
+
   return (
     <div>
       <NavigationBar />
@@ -13,17 +23,17 @@ const Projects = () => {
         <h1 className="font-vitaSans text-blue-600 uppercase font-semibold text-center tracking-wide">
           Frontend UI Projects
         </h1>
-        <div className="flex grid-cols-3">
-          {Frontend.map((project) => {
-            return (
+        <div className="grid grid-cols-3">
+          {projects.map((project: Project) =>
+            project.category === "Frontend" ? (
               <Project
                 key={project.projectID}
                 projectThumbnail={project.projectThumbnail}
                 projectName={project.projectName}
-                projectLinks={project.projectLink}
+                projectLinks={`/projects/${project.projectID}`}
               />
-            );
-          })}
+            ) : null
+          )}
         </div>
       </section>
       <section>
@@ -31,23 +41,51 @@ const Projects = () => {
           Commercial Web Projects
         </h1>
         <div className="grid grid-cols-3">
-          {Commercial.map((project) => {
-            return (
+          {projects.map((project: Project) =>
+            project.category === "Commercial" ? (
               <Project
                 key={project.projectID}
                 projectThumbnail={project.projectThumbnail}
                 projectName={project.projectName}
-                projectLinks={project.projectLink}
+                projectLinks={`/projects/${project.projectID}`}
               />
-            );
-          })}
+            ) : null
+          )}
         </div>
       </section>
       <section>
         <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center">
           Personal Website Projects
         </h1>
-        <div className="grid grid-cols-3"></div>
+        <div className="grid grid-cols-3">
+          {projects.map((project: Project) =>
+            project.category === "Personal" ? (
+              <Project
+                key={project.projectID}
+                projectThumbnail={project.projectThumbnail}
+                projectName={project.projectName}
+                projectLinks={`/projects/${project.projectID}`}
+              />
+            ) : null
+          )}
+        </div>
+      </section>
+      <section>
+        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center">
+          Mobile Apps
+        </h1>
+        <div className="grid grid-cols-3">
+          {projects.map((project: Project) =>
+            project.category === "Mobile" ? (
+              <Project
+                key={project.projectID}
+                projectThumbnail={project.projectThumbnail}
+                projectName={project.projectName}
+                projectLinks={`/projects/${project.projectID}`}
+              />
+            ) : null
+          )}
+        </div>
       </section>
       <Footer />
     </div>

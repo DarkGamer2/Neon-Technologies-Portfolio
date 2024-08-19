@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import React from "react";
 interface navProps {
   NavLink: React.ElementType;
 }
@@ -29,7 +30,7 @@ const NavigationBar = () => {
               className="w-12 h-12 items-center justify-center"
             /> */}
               <h2 className="text-blue-600 font-lobster dark:text-indigo-600">
-                Neon Technologies Limited
+                Neon Technologies 
               </h2>
               <div className="md:hidden">
                 <button
