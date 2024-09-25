@@ -1,8 +1,25 @@
 import React from 'react'
-
+import Footer from '../components/Footer';
+import NavigationBar from '../components/NavigationBar';
+import ConfirmedImage from "../../public/assets/istockphoto-496603666-612x612.png";
+import { useTheme } from '../context/theme/theme';
 const Confirmed = () => {
+  const { theme } = useTheme();
   return (
-    <div>Confirmed</div>
+    <div className={`${theme==="dark"?"dark":"light"}`}>
+      <NavigationBar/>
+      <div className='dark:bg-black'>
+        <div className='w-full'>
+          <img src={ConfirmedImage} alt="Logo Design" className='mx-auto'/>
+        </div>
+        <div>
+          <h1 className="text-center font-bold text-2xl">Confirmed</h1>
+        </div>
+        <h1 className='dark:text-white text-center'>Thank you for your submission!</h1>
+        <p className='dark:text-white text-center'>We will review your project and contact you shortly.</p>
+      </div>
+      <Footer/>
+    </div>
   )
 }
 

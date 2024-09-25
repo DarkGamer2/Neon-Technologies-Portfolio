@@ -8,63 +8,68 @@ import Express from "../assets/png-transparent-express.png";
 import Mongo from "../assets/png-transparent-mongodb.png";
 import Tailwind from "../assets/images.png";
 import React from "react";
+import { useTheme } from "../context/theme/theme";
 const Landing = () => {
+  const { theme } = useTheme();
   return (
-    <section className="flex">
+    <section className={`flex ${theme==="dark"?"dark":"light"}`}>
+
+    <section className="dark:bg-black">
       <div>
-        <h1 className="font-outfit mx-10 font-bold tracking-wider my-3 py-4">
+        <h1 className="font-outfit mx-10 font-bold tracking-wider my-3 py-4 dark:text-white">
           FULL STACK SOFTWARE DEVELOPER AND UI DESIGNER
         </h1>
         <div>
-          <p className="font-spaceGrotesk font-medium mx-10">
+          <p className="font-spaceGrotesk font-medium mx-10 dark:text-white">
             Hi, my name is Kameer Hosein and I am a full stack developer as well
             as a UI/UX Designer based in Trinidad & Tobago.
           </p>
         </div>
-        <section className="content-start h-56 grid grid-cols-4 px-0 w-60 mx-10">
+        <section className="content-start h-56 grid grid-cols-4 px-0 w-60 mx-10 dark:bg-black">
           {/* <div>
             <img
-              className="w-20 h-15 mx-2 my-3"
-              src={HTML}
-              alt="vanilla web stack"
+            className="w-20 h-15 mx-2 my-3"
+            src={HTML}
+            alt="vanilla web stack"
             />
-          </div>
-          <div>
+            </div>
+            <div>
             <img
-              className="w-20 h-15  mx-2 my-3"
-              src={CSS}
-              alt="vanilla web stack"
+            className="w-20 h-15  mx-2 my-3"
+            src={CSS}
+            alt="vanilla web stack"
             />
-          </div>
-          <div>
+            </div>
+            <div>
             <img
-              className="w-20 h-15  mx-2 my-3"
-              src={JS}
-              alt="vanilla web stack"
+            className="w-20 h-15  mx-2 my-3"
+            src={JS}
+            alt="vanilla web stack"
             />
-          </div> */}
+            </div> */}
           {/* <div>
             <img className=" mx-2 my-3" src={reactIcon} alt="react" />
-          </div>
-          <div>
+            </div>
+            <div>
             <img className=" mx-2 my-3" src={Node} alt="node" />
-          </div>
-          <div>
+            </div>
+            <div>
             <img className=" mx-2 my-3" src={Express} alt="express" />
-          </div>
-          <div>
+            </div>
+            <div>
             <img className=" mx-2 my-3" src={Tailwind} alt="tailwind css" />
-          </div>
-          <div>
+            </div>
+            <div>
             <img className=" mx-2 my-3" src={Mongo} alt="MongoDB" />
-          </div> */}
+            </div> */}
         </section>
       </div>
 
       {/* <div className="float-right ">
         <img className="" src={PortfolioImage} alt="portfolio" />
-      </div> */}
+        </div> */}
     </section>
+        </section>
   );
 };
 

@@ -8,18 +8,17 @@ import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import React from "react";
+import { useTheme } from "../context/theme/theme";
 interface navProps {
   NavLink: React.ElementType;
 }
 const NavigationBar = () => {
   const [navbaropen, setNavBarOpen] = useState<boolean>(false);
-  const [darkMode, setDarkMode] = useState<boolean>(false);
 
-  const darkModeSwitch = () => {
-    setDarkMode(true);
-  };
+
+  const {theme,toggleTheme}=useTheme();
   return (
-    <div className={`w-full shadow ${darkMode ? "dark" : ""}`}>
+    <div className={`w-full shadow ${theme==="dark"?"dark":"light"}`}>
       <nav className="dark:bg-black">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
@@ -66,14 +65,14 @@ const NavigationBar = () => {
             </ul>
             <div className="mt-3 space-y-2 lg:hidden md:inline-block">
               <button
-                onClick={darkModeSwitch}
-                className="inline-block px-4 py-2 text-center rounded-md shadow hover:bg-gray-800"
+                onClick={toggleTheme}
+                className="inline-block px-4 py-2 text-center rounded-md shadow hover:bg-gray-800 dark:text-white"
               >
                 <DarkModeIcon />
               </button>
               <NavLink
                 to={"/signin"}
-                className="inline-block px-4 py-2 text-center rounded-md shadow hover:bg-gray-800"
+                className="inline-block px-4 py-2 text-center rounded-md shadow hover:bg-gray-800 dark:text-white"
               >
                 <GitHubIcon />
               </NavLink>
@@ -87,14 +86,14 @@ const NavigationBar = () => {
           </div>
           <div className="hidden space-x-2 md:inline-block">
             <button
-              onClick={darkModeSwitch}
-              className="px-4 py-2 rounded-md shadow hover:bg-gray-600"
+              onClick={toggleTheme}
+              className="px-4 py-2 rounded-md shadow hover:bg-gray-600 dark:text-white"
             >
               <DarkModeIcon />
             </button>
             <NavLink
               to="https://github.com/DarkGamer2"
-              className="px-4 py-2 rounded-md shadow hover:bg-gray-600"
+              className="px-4 py-2 rounded-md shadow hover:bg-gray-600 dark:text-white"
             >
               <GitHubIcon />
             </NavLink>

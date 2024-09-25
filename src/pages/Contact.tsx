@@ -2,13 +2,15 @@ import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
 import NavigationBar from "../components/NavigationBar";
 import React from "react";
-const Contact = () => {
+import { useTheme } from "../context/theme/theme";
+const Contact = ({ setIsSubmitted }: { setIsSubmitted: React.Dispatch<React.SetStateAction<boolean>> }) => {
+  const { theme } = useTheme();
   return (
-    <>
+    <div className={`${theme==="dark"?"dark":"light"}`}>
       <NavigationBar />
-      <ContactForm />
+      <ContactForm setIsSubmitted={setIsSubmitted}/>
       <Footer />
-    </>
+    </div>
   );
 };
 

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import NavigationBar from '../components/NavigationBar';
 import Footer from '../components/Footer';
 import PreviewIcon from '@mui/icons-material/Preview';
-
+import { useTheme } from '../context/theme/theme';
 type Technology = {
   name: string;
   icon?: string;  // icon is optional
@@ -33,10 +33,11 @@ type ProjectPageProps = {
 const ProjectPage: React.FC<ProjectPageProps> = ({ projectData }) => {
   const { id } = useParams<{ id: string }>();
   const project = projectData.find((project) => project.projectID === id);
+  const { theme } = useTheme();
 
   if (!project) {
     return (
-      <div>
+      <div className={`${theme==="dark"?"bg-black":"bg-white"}`}>
         <NavigationBar />
         <p>Project Not Found</p>
         <Footer />
@@ -45,7 +46,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ projectData }) => {
   }
 
   return (
-    <div>
+    <div className={`${theme==="dark"?"dark":"light"}`}>
       <NavigationBar />
 
       <div
@@ -55,7 +56,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ projectData }) => {
           alignItems: 'center',
           height: '80vh', // Make sure content is vertically centered
           gap: '20px',
-        }}
+        }} className="dark:bg-black"
       >
         {/* Image Section */}
         <div style={{ flex: '0 0 auto', maxWidth: '500px' }}>
@@ -71,11 +72,11 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ projectData }) => {
 
         {/* Project Details Section */}
         <div style={{ flex: '1', textAlign: 'left' }}>
-          <h1 className="font-bold text-3xl">{project.projectName}</h1>
-          <p className="text-lg mt-4">{project.description || "No description available"}</p>
+          <h1 className="font-bold text-3xl dark:text-white">{project.projectName}</h1>
+          <p className="text-lg mt-4 dark:text-white">{project.description || "No description available"}</p>
 
           <div className="mt-6">
-            <h3 className="font-semibold text-xl">Technologies Used:</h3>
+            <h3 className="font-semibold text-xl dark:text-white">Technologies Used:</h3>
             <ul className="mt-2">
               {project.technologies.map((tech, index) => (
                 <li key={index} className="flex items-center mt-2">
@@ -86,7 +87,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ projectData }) => {
                       style={{ width: '24px', height: '24px', marginRight: '8px' }}
                     />
                   )}
-                  <span className="text-md">{tech.name}</span>
+                  <span className="text-md dark:text-white">{tech.name}</span>
                 </li>
               ))}
             </ul>
@@ -95,7 +96,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ projectData }) => {
           {/* Conditionally render platforms */}
           {project.category === "Mobile" && project.platforms && (
             <div className="mt-6">
-              <h3 className="font-semibold text-xl">Available Platforms:</h3>
+              <h3 className="font-semibold text-xl dark:text-white">Available Platforms:</h3>
               <ul className="mt-2">
                 {project.platforms.map((platform, index) => (
                   <li key={index} className="flex items-center mt-2">
@@ -104,7 +105,7 @@ const ProjectPage: React.FC<ProjectPageProps> = ({ projectData }) => {
                       alt={`${platform.name} icon`}
                       style={{ width: '24px', height: '24px', marginRight: '8px' }}
                     />
-                    <span className="text-md">{platform.name}</span>
+                    <span className="text-md dark:text-white">{platform.name}</span>
                   </li>
                 ))}
               </ul>

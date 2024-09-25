@@ -2,7 +2,12 @@ import React from "react";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
-const ContactForm = () => {
+import { useTheme } from "../context/theme/theme";
+
+interface ContactProps {
+  setIsSubmitted: React.Dispatch<React.SetStateAction<boolean>>;
+}
+const ContactForm = ({setIsSubmitted}:ContactProps) => {
   const [clientFirstName, setClientFirstName] = useState<string>("");
   const [clientLastName, setClientLastName] = useState<string>("");
   const [clientEmail, setClientEmail] = useState<string>("");
@@ -11,6 +16,7 @@ const ContactForm = () => {
   const [buttonText, setButtonText] = useState<string>("Submit Form");
 
   const navigate = useNavigate();
+  const { theme } = useTheme();
   const handleSubmit = (e: React.MouseEvent) => {
     e.preventDefault();
     const ClientInfo = {
@@ -23,7 +29,7 @@ const ContactForm = () => {
     axios
       .post(
         // "https://neon-technologies-website-api-production.up.railway.app/api/neon_tech/contact",
-        "http://localhost:4000/api/neon_tech/contact",
+        "https://neon-technologies-website-api-production.up.railway.app/api/neon_tech/contact",
         {
           ClientInfo,
         }
@@ -33,24 +39,25 @@ const ContactForm = () => {
           navigate("/error")
         }
         else{
+          setIsSubmitted(true);
           navigate("/confirmed")
         }
       });
   };
   return (
-    <div>
-      <h1 className="text-center text-lg font-bold">Contact Me Today</h1>
+    <div className="dark:bg-black">
+      <h1 className="text-center text-lg font-bold dark:text-white">Contact Me Today</h1>
       <form className="w-full max-w-lg mx-auto">
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
             <label
-              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 dark:text-white"
               htmlFor="clientFirstName"
             >
               First Name
             </label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white dark:bg-black"
               id="grid-first-name"
               type="text"
               name="clientFirstName"
@@ -63,13 +70,13 @@ const ContactForm = () => {
           </div>
           <div className="w-full md:w-1/2 px-3">
             <label
-              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 dark:text-white"
               htmlFor="clientLastName"
             >
               Last Name
             </label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-black"
               id="grid-last-name"
               type="text"
               name="clientLastName"
@@ -81,13 +88,13 @@ const ContactForm = () => {
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full px-3">
             <label
-              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 dark:text-white"
               htmlFor="clientEmail"
             >
               Email
             </label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-black"
               id="grid-password"
               type="email"
               name="clientEmail"
@@ -99,13 +106,13 @@ const ContactForm = () => {
         <div className="flex flex-wrap -mx-3 mb-2">
           <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
             <label
-              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 dark:text-white"
               htmlFor="clientContactNumber"
             >
               Contact Number
             </label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-black"
               id="grid-city"
               type="number"
               name="clientContactNumber"
@@ -142,13 +149,13 @@ const ContactForm = () => {
           </div> */}
           <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
             <label
-              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2 dark:text-white"
               htmlFor="clientQuery"
             >
               Query
             </label>
             <textarea
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-black"
               id="grid-zip"
               name="clientQuery"
               onChange={(e) => setClientQuery(e.target.value)}
@@ -159,7 +166,7 @@ const ContactForm = () => {
         <div className="text-center">
           <button
             className="hover:bg-pink-600 hover:-translate-y-0.5 transform transition active:bg-pink-700 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-50 bg-indigo-500 text-white px-5 py-4 inline-block rounded-lg shadow-lg uppercase tracking-wider font-semibold text-sm sm:text-base"
-            onClick={() => handleSubmit}
+            onClick={handleSubmit}
           >
             {buttonText}
           </button>

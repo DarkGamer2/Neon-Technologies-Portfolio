@@ -3,7 +3,7 @@ import NavigationBar from "../components/NavigationBar";
 import Project from "../components/Project";
 import Footer from "../components/Footer";
 import ProjectsData from "../data/Projects.json";
-
+import { useTheme } from "../context/theme/theme";
 interface Project {
   projectID: string;
   projectName: string;
@@ -15,12 +15,12 @@ interface Project {
 const Projects = () => {
   // Type ProjectsData explicitly as Project[]
   const projects: Project[] = ProjectsData as Project[];
-
+  const {theme}=useTheme();
   return (
-    <div>
+    <div className={`${theme==="dark"?"bg-black":"bg-white"}`}>
       <NavigationBar />
       <section>
-        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold text-center tracking-wide">
+        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold text-center tracking-wide dark:text-white">
           Frontend UI Projects
         </h1>
         <div className="grid grid-cols-3">
@@ -37,7 +37,7 @@ const Projects = () => {
         </div>
       </section>
       <section>
-        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center">
+        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center dark:text-white">
           Commercial Web Projects
         </h1>
         <div className="grid grid-cols-3">
@@ -54,7 +54,7 @@ const Projects = () => {
         </div>
       </section>
       <section>
-        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center">
+        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center dark:text-white">
           Personal Website Projects
         </h1>
         <div className="grid grid-cols-3">
@@ -71,7 +71,7 @@ const Projects = () => {
         </div>
       </section>
       <section>
-        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center">
+        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center dark:text-white">
           Mobile Apps
         </h1>
         <div className="grid grid-cols-3">

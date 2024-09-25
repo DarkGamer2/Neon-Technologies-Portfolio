@@ -2,17 +2,18 @@ import React from "react";
 import NavigationBar from "../components/NavigationBar";
 import Footer from "../components/Footer";
 import Modeling from "/src/assets/download (3).jpeg";
-
+import { useTheme } from "../context/theme/theme";
 const About = () => {
+  const { theme } = useTheme();
   return (
-    <div>
+    <div className={`${theme==="dark"?"bg-black":"bg-white"}`}>
       <NavigationBar />
-      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-        <h1 className="uppercase text-center font-lobster font-bold text-2xl mb-4">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-black">
+        <h1 className="uppercase text-center font-lobster font-bold text-2xl mb-4 dark:text-white">
           Who I Am
         </h1>
-        <div className="w-4/5 md:w-2/3 lg:w-1/2">
-          <p className="text-center text-gray-700 leading-relaxed">
+        <div className="w-4/5 md:w-2/3 lg:w-1/2 dark:bg-black">
+          <p className="text-center text-gray-700 leading-relaxed dark:text-white">
             I am a 23-year-old technology enthusiast with a strong passion for
             coding and creative design. My love for programming drives me to
             build innovative projects, including games, apps, and websites. I
