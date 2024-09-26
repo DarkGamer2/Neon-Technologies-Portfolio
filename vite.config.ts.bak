@@ -1,7 +1,0 @@
-// vite.config.js
-import { defineConfig } from 'vite';
-
-export default defineConfig({
-  base: '/Neon-Technologies-Limited-Portfolio-Website/', // Correct base URL for deployment
-  // other configurations...
-});

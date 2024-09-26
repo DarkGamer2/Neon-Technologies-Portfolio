@@ -2,14 +2,11 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://darkgamer2.github.io/Neon-Technologies-Limited-Portfolio-Website/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
