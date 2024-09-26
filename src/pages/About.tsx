@@ -1,7 +1,7 @@
-import React from "react";
+
 import NavigationBar from "../components/NavigationBar";
 import Footer from "../components/Footer";
-import Modeling from "/src/assets/download (3).jpeg";
+// import Modeling from "../assets/images/download (3).jpeg";
 import { useTheme } from "../context/theme/theme";
 const About = () => {
   const { theme } = useTheme();

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useTheme } from "../context/theme/theme";
 const Footer = () => {
   const { theme } = useTheme();

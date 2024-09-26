@@ -1,8 +1,7 @@
 import Footer from "../components/Footer";
 import NavigationBar from "../components/NavigationBar";
-import React from "react";
-import WebDev from "../../public/assets/software_development.jpg";
-import LogoDesign from "../../public/assets/adobe_photoahop.jpg";
+import WebDev from "../assets/images/software_development.jpg";
+import LogoDesign from "../assets/images/adobe_photoahop.jpg";
 import { useTheme } from "../context/theme/theme";
 const Services = () => {
   const { theme } = useTheme();

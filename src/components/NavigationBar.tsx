@@ -1,5 +1,4 @@
-import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
-import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
@@ -7,11 +6,8 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import React from "react";
 import { useTheme } from "../context/theme/theme";
-interface navProps {
-  NavLink: React.ElementType;
-}
+
 const NavigationBar = () => {
   const [navbaropen, setNavBarOpen] = useState<boolean>(false);
 

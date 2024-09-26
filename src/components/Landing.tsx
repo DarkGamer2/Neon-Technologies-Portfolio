@@ -1,13 +1,12 @@
-import PortfolioImage from "../assets/IMG_7083 transparent.png";
-import HTML from "../assets/html5-icon-13.jpg";
-import CSS from "../assets/css3-icon-28.jpg";
-import JS from "../assets/javascript-icon-png-23.jpg";
-import reactIcon from "../assets/React-icon.svg.png";
-import Node from "../assets/png-clipart-nodejs.png"
-import Express from "../assets/png-transparent-express.png";
-import Mongo from "../assets/png-transparent-mongodb.png";
-import Tailwind from "../assets/images.png";
-import React from "react";
+// import PortfolioImage from "../assets/images/IMG_7083 transparent.png";
+import HTML from "../assets/images/html5-icon-13.jpg";
+import CSS from "../assets/images/css3-icon-28.jpg";
+import JS from "../assets/images/javascript-icon-png-23.jpg";
+import reactIcon from "../assets/images/React-icon.svg.png";
+import Node from "../assets/images/png-clipart-nodejs.png"
+import Express from "../assets/images/png-transparent-express.png";
+import Mongo from "../assets/images/png-transparent-mongodb.png";
+import Tailwind from "../assets/images/images.png";
 import { useTheme } from "../context/theme/theme";
 const Landing = () => {
   const { theme } = useTheme();
@@ -26,7 +25,7 @@ const Landing = () => {
           </p>
         </div>
         <section className="content-start h-56 grid grid-cols-4 px-0 w-60 mx-10 dark:bg-black">
-          {/* <div>
+          <div>
             <img
             className="w-20 h-15 mx-2 my-3"
             src={HTML}
@@ -46,8 +45,8 @@ const Landing = () => {
             src={JS}
             alt="vanilla web stack"
             />
-            </div> */}
-          {/* <div>
+            </div> 
+           <div>
             <img className=" mx-2 my-3" src={reactIcon} alt="react" />
             </div>
             <div>
@@ -61,7 +60,7 @@ const Landing = () => {
             </div>
             <div>
             <img className=" mx-2 my-3" src={Mongo} alt="MongoDB" />
-            </div> */}
+            </div>
         </section>
       </div>
 

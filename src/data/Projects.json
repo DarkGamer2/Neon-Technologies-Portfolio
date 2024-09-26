@@ -1,128 +1,128 @@
 [
   {
     "projectName": "QR Code Project",
-    "projectThumbnail": "/public/assets/Thumbnails/QR Code.png",
+    "projectThumbnail": "/src/assets/Thumbnails/QR_Code.png",
     "projectLink": "https://magnificent-babka-310e7e.netlify.app/",
     "category": "Frontend",
     "technologies": [
       {
         "name": "React",
-        "icon": "/public/assets/React-icon.svg.png"
+        "icon": "/src/assets/images/React-icon.svg.png"
       },
       {
         "name": "Tailwind CSS",
-        "icon": "/public/assets/Tailwind_CSS_Logo.svg.png"
+        "icon": "/src/assets/images/Tailwind_CSS_Logo.svg.png"
       }
     ],
     "projectID": "1"
   },
   {
     "projectName": "Results Summary",
-    "projectThumbnail": "/public/assets/Thumbnails/result_summary.png",
+    "projectThumbnail": "/src/assets/Thumbnails/result_summary.png",
     "projectLink": "https://wonderful-malasada-e5f56c.netlify.app/",
     "category": "Frontend",
     "technologies": [
       {
         "name": "React",
-        "icon": "/public/assets/React-icon.svg.png"
+        "icon": "/src/assets/images/React-icon.svg.png"
       },
       {
         "name": "Tailwind CSS",
-        "icon": "/public/assets/Tailwind_CSS_Logo.svg.png"
+        "icon": "/src/assets/images/Tailwind_CSS_Logo.svg.png"
       }
     ],
     "projectID": "2"
   },
   {
     "projectName": "Mike Phillip Limited Website",
-    "projectThumbnail": "/public/assets/Thumbnails/Mike Phillip Limited Thumbnail.png",
+    "projectThumbnail": "/src/assets/Thumbnails/Mike Phillip Limited Thumbnail.png",
     "projectLink": "https://mike-phillip-limited-website-production.up.railway.app/routes/",
     "category": "Commercial",
     "technologies": [
       {
         "name": "HTML",
-        "icon": "/public/assets/html5-icon-13.jpg"
+        "icon": "/src/assets/images/html5-icon-13.jpg"
       },
       {
         "name": "CSS",
-        "icon": "/public/assets/css3-icon-28.jpg"
+        "icon": "/src/assets/images/css3-icon-28.jpg"
       },
       {
         "name": "Javascript",
-        "icon": "/public/assets/javascript-icon-png-23.jpg"
+        "icon": "/src/assets/images/javascript-icon-png-23.jpg"
       },
       {
         "name": "Node JS",
-        "icon": "/public/assets/png-clipart-nodejs.png"
+        "icon": "/src/assets/images/png-clipart-nodejs.png"
       },
       {
         "name": "Express JS",
-        "icon": "/public/assets/png-transparent-express.png"
+        "icon": "/src/assets/images/png-transparent-express.png"
       }
     ],
     "projectID": "3"
   },
   {
     "projectName": "Nation Drivers Company Limited Website",
-    "projectThumbnail": "/public/assets/Thumbnails/National Drivers Company Limited Thumbnail.png",
+    "projectThumbnail": "/src/assets/Thumbnails/National Drivers Company Limited Thumbnail.png",
     "description":"A Full Stack Website built with React & Node JS for Nation Drivers Company Limited",
     "projectLink": "https://nation-drivers-company-limited-production.up.railway.app/",
     "category": "Commercial",
     "technologies": [
       {
         "name": "React",
-        "icon": "/public/assets/React-icon.svg.png"
+        "icon": "/src/assets/images/React-icon.svg.png"
       },
       {
         "name": "CSS",
-        "icon": "/public/assets/css3-icon-28.jpg"
+        "icon": "/src/assets/images/css3-icon-28.jpg"
       },
       {
         "name": "React Router",
-        "icon": "/public/assets/react_router.png"
+        "icon": "/src/assets/images/react_router.png"
       },
       {
         "name": "Node JS",
-        "icon": "/public/assets/png-clipart-nodejs.png"
+        "icon": "/src/assets/images/png-clipart-nodejs.png"
       },
       {
         "name": "Express JS",
-        "icon": "/public/assets/png-transparent-express.png"
+        "icon": "/src/assets/images/png-transparent-express.png"
       },
       {
         "name": "MongoDB",
-        "icon": "/public/assets/png-transparent-mongodb.png"
+        "icon": "/src/assets/images/png-transparent-mongodb.png"
       }
     ],
     "projectID": "4"
   },
   {
     "projectName": "FleetStar Pro",
-    "projectThumbnail": "/public/assets/Thumbnails/FleetStar_Pro_Icon.png",
+    "projectThumbnail": "/src/assets/Thumbnails/FleetStar_Pro_Icon.png",
     "projectLink": "",
     "category": "Mobile",
     "technologies": [
       {
         "name": "React Native",
-        "icon": "/public/assets/React-icon.svg.png"
+        "icon": "/src/assets/images/React-icon.svg.png"
       },
      {
       "name":"Firebase",
-      "icon":"/public/assets/png-transparent-firebase-hd-logo-thumbnail.png"
+      "icon":"/src/assets/images/png-transparent-firebase-hd-logo-thumbnail.png"
      },
      {
       "name":"React Navigation",
-      "icon":"/public/assets/React_Navigation.png"
+      "icon":"/src/assets/images/React_Navigation.png"
      }
     ],
     "platforms": [
       {
         "name": "iOS",
-        "icon": "/public/assets/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
+        "icon": "/src/assets/images/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
       },
       {
         "name": "Android",
-        "icon": "/public/assets/pngtree-android-icon-image_1288986.jpg"
+        "icon": "/src/assets/images/pngtree-android-icon-image_1288986.jpg"
       }
     ],
     "projectID": "5"
@@ -135,90 +135,90 @@
     "technologies": [
       {
         "name": "React",
-        "icon": "/public/assets/React-icon.svg.png"
+        "icon": "/src/assets/images/React-icon.svg.png"
       },
       {
         "name": "Tailwind CSS",
-        "icon": "/public/assets/css3-icon-28.jpg"
+        "icon": "/src/assets/images/css3-icon-28.jpg"
       },
       {
         "name": "React Router",
-        "icon": "/public/assets/react_router.png"
+        "icon": "/src/assets/images/react_router.png"
       },
       {
         "name": "Node JS",
-        "icon": "/public/assets/png-clipart-nodejs.png"
+        "icon": "/src/assets/images/png-clipart-nodejs.png"
       },
       {
         "name": "Express JS",
-        "icon": "/public/assets/png-transparent-express.png"
+        "icon": "/src/assets/images/png-transparent-express.png"
       },
       {
         "name": "MongoDB",
-        "icon": "/public/assets/png-transparent-mongodb.png"
+        "icon": "/src/assets/images/png-transparent-mongodb.png"
       }
     ],
     "projectID": "6"
   },
   {
     "projectName":"Product Tracker",
-    "projectThumbnail":"/public/assets/Thumbnails/ProductTrackerIcon.png",
+    "projectThumbnail":"/src/assets/Thumbnails/ProductTrackerIcon.png",
     "projectLink":"*",
     "category":"Mobile",
     "technologies": [
       {
         "name": "React Native",
-        "icon": "/public/assets/React-icon.svg.png"
+        "icon": "/src/assets/images/React-icon.svg.png"
       },
      {
       "name":"Firebase",
-      "icon":"/public/assets/png-transparent-firebase-hd-logo-thumbnail.png"
+      "icon":"/src/assets/images/png-transparent-firebase-hd-logo-thumbnail.png"
      },
      {
       "name":"React Navigation",
-      "icon":"/public/assets/React_Navigation.png"
+      "icon":"/src/assets/images/React_Navigation.png"
      }
     ],
     "platforms": [
       {
         "name": "iOS",
-        "icon": "/public/assets/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
+        "icon": "/src/assets/images/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
       },
       {
         "name": "Android",
-        "icon": "/public/assets/pngtree-android-icon-image_1288986.jpg"
+        "icon": "/src/assets/images/pngtree-android-icon-image_1288986.jpg"
       }
     ],
     "projectID":"7"
   },{
     "projectName":"MEWZLINE",
-    "projectThumbnail":"/public/assets/Thumbnails/MEWZLINE_LOGO.jpg",
+    "projectThumbnail":"/src/assets/Thumbnails/MEWZLINE_LOGO.jpg",
     "projectLink":"https://mewzaline.up.railway.app/",
     "category":"Commercial",
     "technologies": [
       {
         "name": "React",
-        "icon": "/public/assets/React-icon.svg.png"
+        "icon": "/src/assets/images/React-icon.svg.png"
       },
       {
         "name": "Tailwind CSS",
-        "icon": "/public/assets/css3-icon-28.jpg"
+        "icon": "/src/assets/images/css3-icon-28.jpg"
       },
       {
         "name": "React Router",
-        "icon": "/public/assets/react_router.png"
+        "icon": "/src/assets/images/react_router.png"
       },
       {
         "name": "Node JS",
-        "icon": "/public/assets/png-clipart-nodejs.png"
+        "icon": "/src/assets/images/png-clipart-nodejs.png"
       },
       {
         "name": "Express JS",
-        "icon": "/public/assets/png-transparent-express.png"
+        "icon": "/src/assets/images/png-transparent-express.png"
       },
       {
         "name": "MongoDB",
-        "icon": "/public/assets/png-transparent-mongodb.png"
+        "icon": "/src/assets/images/png-transparent-mongodb.png"
       }
     ],
     "projectID":"8"

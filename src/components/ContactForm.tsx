@@ -1,8 +1,8 @@
 import React from "react";
 import axios from "axios";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router";
-import { useTheme } from "../context/theme/theme";
+
 
 interface ContactProps {
   setIsSubmitted: React.Dispatch<React.SetStateAction<boolean>>;
@@ -16,9 +16,9 @@ const ContactForm = ({setIsSubmitted}:ContactProps) => {
   const [buttonText, setButtonText] = useState<string>("Submit Form");
 
   const navigate = useNavigate();
-  const { theme } = useTheme();
   const handleSubmit = (e: React.MouseEvent) => {
     e.preventDefault();
+    setButtonText("Submitting...");
     const ClientInfo = {
       clientFirstName,
       clientLastName,

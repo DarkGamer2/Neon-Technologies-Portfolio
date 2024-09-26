@@ -1,4 +1,4 @@
-import React from "react";
+
 import NavigationBar from "../components/NavigationBar";
 import Landing from "../components/Landing";
 import Footer from "../components/Footer";
