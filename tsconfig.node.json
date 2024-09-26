@@ -6,8 +6,7 @@
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
-
-    "esModuleInterop": true
+    "esModuleInterop": true // Ensure this is true for consistency
   },
   "include": ["vite.config.ts", "src/**/*.ts", "src/**/*.tsx"]
 }
