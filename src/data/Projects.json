@@ -1,7 +1,7 @@
 [
   {
     "projectName": "QR Code Project",
-    "projectThumbnail": "/public/assets/Thumbnails/QR_Code.png",
+    "projectThumbnail": "/assets/Thumbnails/QR_Code.png",
     "projectLink": "https://magnificent-babka-310e7e.netlify.app/",
     "category": "Frontend",
     "technologies": [
