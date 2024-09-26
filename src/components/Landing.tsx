@@ -1,12 +1,12 @@
 // import PortfolioImage from "../assets/images/IMG_7083 transparent.png";
-import HTML from "../assets/images/html5-icon-13.jpg";
-import CSS from "../assets/images/css3-icon-28.jpg";
-import JS from "../assets/images/javascript-icon-png-23.jpg";
-import reactIcon from "../assets/images/React-icon.svg.png";
-import Node from "../assets/images/png-clipart-nodejs.png"
-import Express from "../assets/images/png-transparent-express.png";
-import Mongo from "../assets/images/png-transparent-mongodb.png";
-import Tailwind from "../assets/images/images.png";
+import HTML from "../../public/assets/images/html5-icon-13.jpg";
+import CSS from "../../public/assets/images/css3-icon-28.jpg";
+import JS from "../../public/assets/images/javascript-icon-png-23.jpg";
+import reactIcon from "../../public/assets/images/React-icon.svg.png";
+import Node from "../../public/assets/images/png-clipart-nodejs.png"
+import Express from "../../public/assets/images/png-transparent-express.png";
+import Mongo from "../../public/assets/images/png-transparent-mongodb.png";
+import Tailwind from "../../public/assets/images/images.png";
 import { useTheme } from "../context/theme/theme";
 const Landing = () => {
   const { theme } = useTheme();
