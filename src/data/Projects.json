@@ -1,13 +1,13 @@
 [
   {
     "projectName": "QR Code Project",
-    "projectThumbnail": "/src/assets/Thumbnails/QR_Code.png",
+    "projectThumbnail": "../assets/Thumbnails/QR_Code.png",
     "projectLink": "https://magnificent-babka-310e7e.netlify.app/",
     "category": "Frontend",
     "technologies": [
       {
         "name": "React",
-        "icon": "/src/assets/images/React-icon.svg.png"
+        "icon": "../assets/images/React-icon.svg.png"
       },
       {
         "name": "Tailwind CSS",
