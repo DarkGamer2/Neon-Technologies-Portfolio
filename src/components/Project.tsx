@@ -8,12 +8,10 @@ const Project = (props: projectProps) => {
   return (
     <div>
       <Link to={props.projectLinks}>
-        <div className="mx-3">
+        <div className="mx-3 image-container my-2">
           <img
-            className="mx-auto"
+            className="mx-auto rounded-md"
             src={props.projectThumbnail}
-            width={400}
-            height={200}
           />
         </div>
       </Link>

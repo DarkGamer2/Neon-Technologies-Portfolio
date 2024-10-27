@@ -3,6 +3,7 @@
     "projectName": "QR Code Project",
     "projectThumbnail": "/assets/Thumbnails/QR_Code.png",
     "projectLink": "https://magnificent-babka-310e7e.netlify.app/",
+    "repoLink":"https://github.com/DarkGamer2/qr",
     "category": "Frontend",
     "technologies": [
       {
@@ -20,6 +21,7 @@
     "projectName": "Results Summary",
     "projectThumbnail": "/assets/Thumbnails/result_summary.png",
     "projectLink": "https://wonderful-malasada-e5f56c.netlify.app/",
+    "repoLink":"https://github.com/DarkGamer2/Results-Summary",
     "category": "Frontend",
     "technologies": [
       {
@@ -37,6 +39,7 @@
     "projectName": "Mike Phillip Limited Website",
     "projectThumbnail": "/assets/Thumbnails/Mike Phillip Limited Thumbnail.png",
     "projectLink": "https://mike-phillip-limited-website-production.up.railway.app/routes/",
+    "repoLink":"https://github.com/DarkGamer2/Mike-Phillip-Website",
     "category": "Commercial",
     "technologies": [
       {
@@ -67,6 +70,7 @@
     "projectThumbnail": "/assets/Thumbnails/National Drivers Company Limited Thumbnail.png",
     "description":"A Full Stack Website built with React & Node JS for Nation Drivers Company Limited",
     "projectLink": "https://nation-drivers-company-limited-production.up.railway.app/",
+    "repoLink":"https://github.com/DarkGamer2/Nation-Drivers-Company-Limited",
     "category": "Commercial",
     "technologies": [
       {
@@ -100,6 +104,7 @@
     "projectName": "FleetStar Pro",
     "projectThumbnail": "/assets/Thumbnails/FleetStar_Pro_Icon.png",
     "projectLink": "",
+    "repoLink":"https://github.com/DarkGamer2/FleetStarPro",
     "category": "Mobile",
     "technologies": [
       {
@@ -164,6 +169,7 @@
     "projectName":"Product Tracker",
     "projectThumbnail":"/assets/Thumbnails/ProductTrackerIcon.png",
     "projectLink":"*",
+    "repoLink":"https://github.com/DarkGamer2/ProductTracker",
     "category":"Mobile",
     "technologies": [
       {
