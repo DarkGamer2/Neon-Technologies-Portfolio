@@ -1,0 +1,384 @@
+[
+  {
+    "projectName": "QR Code Project",
+    "projectThumbnail": "/assets/Thumbnails/QR_Code.png",
+    "projectLink": "https://magnificent-babka-310e7e.netlify.app/",
+    "repoLink": "https://github.com/DarkGamer2/qr",
+    "category": "Frontend",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/assets/images/React-icon.svg.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/assets/images/Tailwind_CSS_Logo.svg.png"
+      }
+    ],
+    "projectPics": [
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "description": "#"
+      }
+    ],
+    "projectID": "1"
+  },
+  {
+    "projectName": "Results Summary",
+    "projectThumbnail": "/assets/Thumbnails/result_summary.png",
+    "projectLink": "https://wonderful-malasada-e5f56c.netlify.app/",
+    "repoLink": "https://github.com/DarkGamer2/Results-Summary",
+    "category": "Frontend",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/assets/images/React-icon.svg.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/assets/images/Tailwind_CSS_Logo.svg.png"
+      }
+    ],
+    "projectPics": [
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "description": "#"
+      }
+    ],
+    "projectID": "2"
+  },
+  {
+    "projectName": "Mike Phillip Limited Website",
+    "projectThumbnail": "/assets/Thumbnails/Mike Phillip Limited Thumbnail.png",
+    "projectLink": "https://mike-phillip-limited-website-production.up.railway.app/routes/",
+    "repoLink": "https://github.com/DarkGamer2/Mike-Phillip-Website",
+    "category": "Commercial",
+    "technologies": [
+      {
+        "name": "HTML",
+        "icon": "/assets/images/html5-icon-13.jpg"
+      },
+      {
+        "name": "CSS",
+        "icon": "/assets/images/css3-icon-28.jpg"
+      },
+      {
+        "name": "Javascript",
+        "icon": "/assets/images/javascript-icon-png-23.jpg"
+      },
+      {
+        "name": "Node JS",
+        "icon": "/assets/images/png-clipart-nodejs.png"
+      },
+      {
+        "name": "Express JS",
+        "icon": "/assets/images/png-transparent-express.png"
+      }
+    ],
+    "projectPics": [
+      {
+        "image": "/assets/projectPics/MPL/mpl_1.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/projectPics/MPL/mpl_2.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/projectPics/MPL/mpl_3.png",
+        "description": "#"
+      }
+    ],
+    "projectID": "3"
+  },
+  {
+    "projectName": "Nation Drivers Company Limited Website",
+    "projectThumbnail": "/assets/Thumbnails/National Drivers Company Limited Thumbnail.png",
+    "description": "A Full Stack Website built with React & Node JS for Nation Drivers Company Limited",
+    "projectLink": "https://nation-drivers-company-limited-production.up.railway.app/",
+    "repoLink": "https://github.com/DarkGamer2/Nation-Drivers-Company-Limited",
+    "category": "Commercial",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/assets/images/React-icon.svg.png"
+      },
+      {
+        "name": "CSS",
+        "icon": "/assets/images/css3-icon-28.jpg"
+      },
+      {
+        "name": "React Router",
+        "icon": "/assets/images/react_router.png"
+      },
+      {
+        "name": "Node JS",
+        "icon": "/assets/images/png-clipart-nodejs.png"
+      },
+      {
+        "name": "Express JS",
+        "icon": "/assets/images/png-transparent-express.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/assets/images/png-transparent-mongodb.png"
+      }
+    ],
+    "projectPics": [
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "description": "#"
+      }
+    ],
+    "projectID": "4"
+  },
+  {
+    "projectName": "FleetStar Pro",
+    "projectThumbnail": "/assets/Thumbnails/FleetStar_Pro_Icon.png",
+    "projectLink": "",
+    "repoLink": "https://github.com/DarkGamer2/FleetStarPro",
+    "category": "Mobile",
+    "technologies": [
+      {
+        "name": "React Native",
+        "icon": "/assets/images/React-icon.svg.png"
+      },
+      {
+        "name": "Firebase",
+        "icon": "/assets/images/png-transparent-firebase-hd-logo-thumbnail.png"
+      },
+      {
+        "name": "React Navigation",
+        "icon": "/assets/images/React_Navigation.png"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "iOS",
+        "icon": "/assets/images/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
+      },
+      {
+        "name": "Android",
+        "icon": "/assets/images/pngtree-android-icon-image_1288986.jpg"
+      }
+    ],
+    "projectPics": [
+      {
+        "image": "/assets/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "description": "#"
+      }
+    ],
+    "projectID": "5"
+  },
+  {
+    "projectName": "Galactaneon",
+    "projectThumbnail": "/assets/Thumbnails/Galactaneon_Thumbnail.png",
+    "projectLink": "",
+    "category": "Personal",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/assets/images/React-icon.svg.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/assets/images/css3-icon-28.jpg"
+      },
+      {
+        "name": "React Router",
+        "icon": "/assets/images/react_router.png"
+      },
+      {
+        "name": "Node JS",
+        "icon": "/assets/images/png-clipart-nodejs.png"
+      },
+      {
+        "name": "Express JS",
+        "icon": "/assets/images/png-transparent-express.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/assets/images/png-transparent-mongodb.png"
+      }
+    ],
+    "projectPics": [
+      {
+        "image": "/assets/images/projectPics/MPL/mpl_1.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/mpl_2.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/mpl_3.png",
+        "description": "#"
+      }
+    ],
+    "projectID": "6"
+  },
+  {
+    "projectName": "Product Tracker",
+    "projectThumbnail": "/assets/Thumbnails/ProductTrackerIcon.png",
+    "projectLink": "*",
+    "repoLink": "https://github.com/DarkGamer2/ProductTracker",
+    "category": "Mobile",
+    "technologies": [
+      {
+        "name": "React Native",
+        "icon": "/assets/images/React-icon.svg.png"
+      },
+      {
+        "name": "Firebase",
+        "icon": "/assets/images/png-transparent-firebase-hd-logo-thumbnail.png"
+      },
+      {
+        "name": "React Navigation",
+        "icon": "/assets/images/React_Navigation.png"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "iOS",
+        "icon": "/assets/images/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
+      },
+      {
+        "name": "Android",
+        "icon": "/assets/images/pngtree-android-icon-image_1288986.jpg"
+      }
+    ],
+    "projectPics": [
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "description": "#"
+      }
+    ],
+    "projectID": "7"
+  },
+  {
+    "projectName": "MEWZLINE",
+    "projectThumbnail": "/assets/Thumbnails/MEWZLINE_LOGO.jpg",
+    "projectLink": "https://mewzaline.up.railway.app/",
+    "category": "Commercial",
+    "technologies": [
+      {
+        "name": "React",
+        "icon": "/assets/images/React-icon.svg.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "/assets/images/css3-icon-28.jpg"
+      },
+      {
+        "name": "React Router",
+        "icon": "/assets/images/react_router.png"
+      },
+      {
+        "name": "Node JS",
+        "icon": "/assets/images/png-clipart-nodejs.png"
+      },
+      {
+        "name": "Express JS",
+        "icon": "/assets/images/png-transparent-express.png"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "/assets/images/png-transparent-mongodb.png"
+      }
+    ],
+    "projectPics": [
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "description": "#"
+      },
+      {
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "description": "#"
+      }
+    ],
+    "projectID": "8"
+  },
+  {
+    "projectName": "Galactaneon Mobile",
+    "projectThumbnail": "/assets/Thumbnails/Galactaneon_Thumbnail.png",
+    "description": "A mobile application built using Swift UI for iOS devices, based on my Galactaneon web project with added features such as community creation, etc.",
+    "projectLink": "*",
+    "repoLink": "https://github.com/DarkGamer2/Galactaneon-Mobile-iOS-With-Swift-",
+    "category": "Mobile",
+    "technologies": [
+      {
+        "name": "Swift",
+        "icon": "/assets/images/swift.png"
+      },
+      {
+        "name": "SwiftUI",
+        "icon": "/assets/images/swiftui.png"
+      }
+    ],
+    "projectPics": [
+      {
+        "image": "/assets/projectPics/Galactaneon_Mobile/Simulator Screenshot - iPhone 16 Pro - 2025-03-04 at 05.06.25.png",
+        "description": "Home Screen"
+      },
+      {
+        "image": "/assets/projectPics/Galactaneon_Mobile/Simulator Screenshot - iPhone 16 Pro - 2025-03-04 at 05.32.17.png",
+        "description": "Community Screen"
+      },
+      {
+        "image": "/assets/projectPics/Galactaneon_Mobile/Simulator Screenshot - iPhone 16 Pro - 2025-03-04 at 10.29.39.png",
+        "description": "Profile Screen"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "iOS",
+        "icon": "/assets/images/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
+      }
+    ],
+    "projectID": "9"
+  }
+]
