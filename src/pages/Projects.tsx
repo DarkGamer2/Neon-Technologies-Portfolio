@@ -5,11 +5,16 @@ import Footer from "../components/Footer";
 import ProjectsData from "../data/Projects.json";
 import { useTheme } from "../context/theme/theme";
 interface Project {
-  projectID: string;
   projectName: string;
   projectThumbnail: string;
   projectLink: string;
+  repoLink: string;
   category: string;
+  technologies: { name: string; icon: string; }[];
+  projectPics: { image: string; description: string; }[];
+  projectID: string;
+  description?: string; // Make description optional
+  platforms?: { name: string; icon: string; }[]; // Make platforms optional
 }
 
 const Projects = () => {

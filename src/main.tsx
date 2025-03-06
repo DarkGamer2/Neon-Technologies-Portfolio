@@ -7,17 +7,31 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
-import Error from "./pages/Error";  // Assuming "Error" is different from "Confirmed"
+import Error from "./pages/Error";
 import Confirmed from "./pages/Confirmed";
 import ProjectPage from "./pages/ProjectPage";
-import projectData from "./data/Projects.json";
+import projectDataJson from "./data/Projects.json"; // Rename the import to projectDataJson
 import { ThemeProvider } from "./context/theme/theme";
 
-// Main functional component that manages state
+interface Project {
+  projectName: string;
+  projectThumbnail: string;
+  projectLink: string;
+  repoLink: string;
+  category: string;
+  technologies: { name: string; icon: string; }[];
+  projectPics: { image: string; description: string; }[];
+  projectID: string;
+  description?: string;
+  platforms?: { name: string; icon: string; }[];
+}
+
+// Type assertion to treat projectDataJson as Project[]
+const projectData = projectDataJson as Project[];
+
 const RootComponent = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  // Create your router with conditional access to the Confirmed page
   const router = createHashRouter([
     {
       path: "/",
@@ -33,7 +47,7 @@ const RootComponent = () => {
     },
     {
       path: "/contact",
-      element: <Contact setIsSubmitted={setIsSubmitted} />,  // Pass setIsSubmitted to Contact
+      element: <Contact setIsSubmitted={setIsSubmitted} />,
     },
     {
       path: "/services",
@@ -45,7 +59,7 @@ const RootComponent = () => {
     },
     {
       path: "/confirmed",
-      element: isSubmitted ? <Confirmed /> : <Navigate to="/contact" />, // Redirect if not submitted
+      element: isSubmitted ? <Confirmed /> : <Navigate to="/contact" />,
     },
     {
       path: "/projects/:id",
@@ -60,7 +74,6 @@ const RootComponent = () => {
   );
 };
 
-// Render the root component
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <RootComponent />
