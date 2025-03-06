@@ -1,6 +1,6 @@
 import Footer from '../components/Footer';
 import NavigationBar from '../components/NavigationBar';
-import ConfirmedImage from "/assets/images/confirmed.png";
+import ConfirmedImage from "/assets/images/confirmed.jpg";
 import { useTheme } from '../context/theme/theme';
 
 const Confirmed = () => {

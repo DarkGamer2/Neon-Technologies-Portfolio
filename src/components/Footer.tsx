@@ -1,6 +1,6 @@
 
 import { useTheme } from "../context/theme/theme";
-import NeonTechLimitedLogo from"/assets/images/Neon_Technologies_Limited_Logo.png";
+import NeonTechLimitedLogo from"/assets/images/Neon_Technologies_Limited_Logo.jpg";
 const Footer = () => {
   const { theme } = useTheme();
   return (

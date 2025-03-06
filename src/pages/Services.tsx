@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import NavigationBar from "../components/NavigationBar";
 import WebDev from "/assets/images/software_development.jpg";
 import LogoDesign from "/assets/images/adobe_photoahop.jpg";
-import MoblieDevelopment from "/assets/images/mobile_development.png";
+import MoblieDevelopment from "/assets/images/mobile_development.jpg";
 import { useTheme } from "../context/theme/theme";
 
 const Services = () => {

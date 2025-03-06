@@ -8,11 +8,11 @@
     "technologies": [
       {
         "name": "React",
-        "icon": "/assets/images/React-icon.svg.png"
+        "icon": "/assets/images/React-icon.svg.jpg"
       },
       {
         "name": "Tailwind CSS",
-        "icon": "/assets/images/Tailwind_CSS_Logo.svg.png"
+        "icon": "/assets/images/Tailwind_CSS_Logo.svg.jpg"
       }
     ],
     "projectPics": [
