@@ -17,15 +17,15 @@
     ],
     "projectPics": [
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "image": "/assets/images/projectPics/qr_scanner/qr_1.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "image": "/assets/images/projectPics/qr_scanner/qr_1.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "image": "/assets/images/projectPics/qr_scanner/qr_1.jpg",
         "description": "#"
       }
     ],
@@ -33,31 +33,31 @@
   },
   {
     "projectName": "Results Summary",
-    "projectThumbnail": "/assets/Thumbnails/result_summary.png",
+    "projectThumbnail": "/assets/Thumbnails/result_summary.jpg",
     "projectLink": "https://wonderful-malasada-e5f56c.netlify.app/",
     "repoLink": "https://github.com/DarkGamer2/Results-Summary",
     "category": "Frontend",
     "technologies": [
       {
         "name": "React",
-        "icon": "/assets/images/React-icon.svg.png"
+        "icon": "/assets/images/React-icon.svg.jpg"
       },
       {
         "name": "Tailwind CSS",
-        "icon": "/assets/images/Tailwind_CSS_Logo.svg.png"
+        "icon": "/assets/images/Tailwind_CSS_Logo.svg.jpg"
       }
     ],
     "projectPics": [
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "image": "/assets/images/projectPics/results_summary/result_summary.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "image": "/assets/images/projectPics/results_summary/result_summary.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "image": "/assets/images/projectPics/results_summary/result_summary.jpg",
         "description": "#"
       }
     ],
@@ -65,7 +65,7 @@
   },
   {
     "projectName": "Mike Phillip Limited Website",
-    "projectThumbnail": "/assets/Thumbnails/Mike Phillip Limited Thumbnail.png",
+    "projectThumbnail": "/assets/Thumbnails/Mike Phillip Limited Thumbnail.jpg",
     "projectLink": "https://mike-phillip-limited-website-production.up.railway.app/routes/",
     "repoLink": "https://github.com/DarkGamer2/Mike-Phillip-Website",
     "category": "Commercial",
@@ -84,24 +84,24 @@
       },
       {
         "name": "Node JS",
-        "icon": "/assets/images/png-clipart-nodejs.png"
+        "icon": "/assets/images/png-clipart-nodejs.jpg"
       },
       {
         "name": "Express JS",
-        "icon": "/assets/images/png-transparent-express.png"
+        "icon": "/assets/images/png-transparent-express.jpg"
       }
     ],
     "projectPics": [
       {
-        "image": "/assets/projectPics/MPL/mpl_1.png",
+        "image": "/assets/projectPics/MPL/mpl_1.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/projectPics/MPL/mpl_2.png",
+        "image": "/assets/projectPics/MPL/mpl_2.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/projectPics/MPL/mpl_3.png",
+        "image": "/assets/projectPics/MPL/mpl_3.jpg",
         "description": "#"
       }
     ],
@@ -117,7 +117,7 @@
     "technologies": [
       {
         "name": "React",
-        "icon": "/assets/images/React-icon.svg.png"
+        "icon": "/assets/images/React-icon.svg.jpg"
       },
       {
         "name": "CSS",
@@ -125,32 +125,32 @@
       },
       {
         "name": "React Router",
-        "icon": "/assets/images/react_router.png"
+        "icon": "/assets/images/react_router.jpg"
       },
       {
         "name": "Node JS",
-        "icon": "/assets/images/png-clipart-nodejs.png"
+        "icon": "/assets/images/png-clipart-nodejs.jpg"
       },
       {
         "name": "Express JS",
-        "icon": "/assets/images/png-transparent-express.png"
+        "icon": "/assets/images/png-transparent-express.jpg"
       },
       {
         "name": "MongoDB",
-        "icon": "/assets/images/png-transparent-mongodb.png"
+        "icon": "/assets/images/png-transparent-mongodb.jpg"
       }
     ],
     "projectPics": [
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "image": "/assets/images/projectPics/Nation_Drivers_Limited/ndl_1.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "image": "/assets/images/projectPics/Nation_Drivers_Limited/ndl_2.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "image": "/assets/images/projectPics/Nation_Drivers_Limited/ndl_3.jpg",
         "description": "#"
       }
     ],
@@ -158,28 +158,28 @@
   },
   {
     "projectName": "FleetStar Pro",
-    "projectThumbnail": "/assets/Thumbnails/FleetStar_Pro_Icon.png",
+    "projectThumbnail": "/assets/Thumbnails/FleetStar_Pro_Icon.jpg",
     "projectLink": "",
     "repoLink": "https://github.com/DarkGamer2/FleetStarPro",
     "category": "Mobile",
     "technologies": [
       {
         "name": "React Native",
-        "icon": "/assets/images/React-icon.svg.png"
+        "icon": "/assets/images/React-icon.svg.jpg"
       },
       {
         "name": "Firebase",
-        "icon": "/assets/images/png-transparent-firebase-hd-logo-thumbnail.png"
+        "icon": "/assets/images/png-transparent-firebase-hd-logo-thumbnail.jpg"
       },
       {
         "name": "React Navigation",
-        "icon": "/assets/images/React_Navigation.png"
+        "icon": "/assets/images/React_Navigation.jpg"
       }
     ],
     "platforms": [
       {
         "name": "iOS",
-        "icon": "/assets/images/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
+        "icon": "/assets/images/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.jpg"
       },
       {
         "name": "Android",
@@ -188,15 +188,15 @@
     ],
     "projectPics": [
       {
-        "image": "/assets/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "image": "/assets/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "image": "/assets/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "image": "/assets/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.jpg",
         "description": "#"
       }
     ],
@@ -204,13 +204,13 @@
   },
   {
     "projectName": "Galactaneon",
-    "projectThumbnail": "/assets/Thumbnails/Galactaneon_Thumbnail.png",
+    "projectThumbnail": "/assets/Thumbnails/Galactaneon_Thumbnail.jpg",
     "projectLink": "",
     "category": "Personal",
     "technologies": [
       {
         "name": "React",
-        "icon": "/assets/images/React-icon.svg.png"
+        "icon": "/assets/images/React-icon.svg.jpg"
       },
       {
         "name": "Tailwind CSS",
@@ -218,32 +218,32 @@
       },
       {
         "name": "React Router",
-        "icon": "/assets/images/react_router.png"
+        "icon": "/assets/images/react_router.jpg"
       },
       {
         "name": "Node JS",
-        "icon": "/assets/images/png-clipart-nodejs.png"
+        "icon": "/assets/images/png-clipart-nodejs.jpg"
       },
       {
         "name": "Express JS",
-        "icon": "/assets/images/png-transparent-express.png"
+        "icon": "/assets/images/png-transparent-express.jpg"
       },
       {
         "name": "MongoDB",
-        "icon": "/assets/images/png-transparent-mongodb.png"
+        "icon": "/assets/images/png-transparent-mongodb.jpg"
       }
     ],
     "projectPics": [
       {
-        "image": "/assets/images/projectPics/MPL/mpl_1.png",
+        "image": "/assets/images/projectPics/MPL/mpl_1.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/mpl_2.png",
+        "image": "/assets/images/projectPics/MPL/mpl_2.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/mpl_3.png",
+        "image": "/assets/images/projectPics/MPL/mpl_3.jpg",
         "description": "#"
       }
     ],
@@ -251,28 +251,28 @@
   },
   {
     "projectName": "Product Tracker",
-    "projectThumbnail": "/assets/Thumbnails/ProductTrackerIcon.png",
+    "projectThumbnail": "/assets/Thumbnails/ProductTrackerIcon.jpg",
     "projectLink": "*",
     "repoLink": "https://github.com/DarkGamer2/ProductTracker",
     "category": "Mobile",
     "technologies": [
       {
         "name": "React Native",
-        "icon": "/assets/images/React-icon.svg.png"
+        "icon": "/assets/images/React-icon.svg.jpg"
       },
       {
         "name": "Firebase",
-        "icon": "/assets/images/png-transparent-firebase-hd-logo-thumbnail.png"
+        "icon": "/assets/images/png-transparent-firebase-hd-logo-thumbnail.jpg"
       },
       {
         "name": "React Navigation",
-        "icon": "/assets/images/React_Navigation.png"
+        "icon": "/assets/images/React_Navigation.jpg"
       }
     ],
     "platforms": [
       {
         "name": "iOS",
-        "icon": "/assets/images/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
+        "icon": "/assets/images/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.jpg"
       },
       {
         "name": "Android",
@@ -281,15 +281,15 @@
     ],
     "projectPics": [
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "image": "/assets/images/projectPics/product_tracker/product_tracker_1.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "image": "/assets/images/projectPics/product_tracker/product_tracker_2.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "image": "/assets/images/projectPics/product_tracker/product_tracker_3.jpg",
         "description": "#"
       }
     ],
@@ -303,7 +303,7 @@
     "technologies": [
       {
         "name": "React",
-        "icon": "/assets/images/React-icon.svg.png"
+        "icon": "/assets/images/React-icon.svg.jpg"
       },
       {
         "name": "Tailwind CSS",
@@ -311,32 +311,32 @@
       },
       {
         "name": "React Router",
-        "icon": "/assets/images/react_router.png"
+        "icon": "/assets/images/react_router.jpg"
       },
       {
         "name": "Node JS",
-        "icon": "/assets/images/png-clipart-nodejs.png"
+        "icon": "/assets/images/png-clipart-nodejs.jpg"
       },
       {
         "name": "Express JS",
-        "icon": "/assets/images/png-transparent-express.png"
+        "icon": "/assets/images/png-transparent-express.jpg"
       },
       {
         "name": "MongoDB",
-        "icon": "/assets/images/png-transparent-mongodb.png"
+        "icon": "/assets/images/png-transparent-mongodb.jpg"
       }
     ],
     "projectPics": [
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.png",
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.13_AM.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.png",
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.28_AM.jpg",
         "description": "#"
       },
       {
-        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.png",
+        "image": "/assets/images/projectPics/MPL/Screenshot_2024-11-12_at_10.39.42_AM.jpg",
         "description": "#"
       }
     ],
@@ -352,31 +352,31 @@
     "technologies": [
       {
         "name": "Swift",
-        "icon": "/assets/images/swift.png"
+        "icon": "/assets/images/swift.jpg"
       },
       {
         "name": "SwiftUI",
-        "icon": "/assets/images/swiftui.png"
+        "icon": "/assets/images/swiftui.jpg"
       }
     ],
     "projectPics": [
       {
-        "image": "/assets/projectPics/Galactaneon_Mobile/Simulator Screenshot - iPhone 16 Pro - 2025-03-04 at 05.06.25.png",
+        "image": "/assets/projectPics/Galactaneon_Mobile/Simulator Screenshot - iPhone 16 Pro - 2025-03-04 at 05.06.25.jpg",
         "description": "Home Screen"
       },
       {
-        "image": "/assets/projectPics/Galactaneon_Mobile/Simulator Screenshot - iPhone 16 Pro - 2025-03-04 at 05.32.17.png",
+        "image": "/assets/projectPics/Galactaneon_Mobile/Simulator Screenshot - iPhone 16 Pro - 2025-03-04 at 05.32.17.jpg",
         "description": "Community Screen"
       },
       {
-        "image": "/assets/projectPics/Galactaneon_Mobile/Simulator Screenshot - iPhone 16 Pro - 2025-03-04 at 10.29.39.png",
+        "image": "/assets/projectPics/Galactaneon_Mobile/Simulator Screenshot - iPhone 16 Pro - 2025-03-04 at 10.29.39.jpg",
         "description": "Profile Screen"
       }
     ],
     "platforms": [
       {
         "name": "iOS",
-        "icon": "/assets/images/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.png"
+        "icon": "/assets/images/png-transparent-apple-logo-apple-computer-icons-apple-logo-heart-computer-logo-thumbnail.jpg"
       }
     ],
     "projectID": "9"
