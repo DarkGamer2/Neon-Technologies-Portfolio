@@ -1,6 +1,6 @@
 
 import { useTheme } from "../context/theme/theme";
-import NeonTechLimitedLogo from"/assets/images/Neon_Technologies_Limited_Logo.png";
+import NeonTechLimitedLogo from"/assets/images/Neon_Technologies_Limited_Logo.jpg";
 const Footer = () => {
   const { theme } = useTheme();
   return (
@@ -28,8 +28,8 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://flowbite.com/" className="hover:underline">
-                    Flowbite
+                  <a href="https://vuejs.org/" className="hover:underline">
+                    Vue
                   </a>
                 </li>
                 <li>
@@ -49,20 +49,20 @@ const Footer = () => {
               <ul className="text-gray-600 dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/themesberg/flowbite"
+                    href="https://github.com/DarkGamer2"
                     className="hover:underline "
                     >
                     Github
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://discord.gg/4eeurUVvTy"
                     className="hover:underline"
                     >
                     Discord
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div>
