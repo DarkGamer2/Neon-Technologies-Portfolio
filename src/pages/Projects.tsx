@@ -1,9 +1,9 @@
-
 import NavigationBar from "../components/NavigationBar";
 import Project from "../components/Project";
 import Footer from "../components/Footer";
 import ProjectsData from "../data/Projects.json";
 import { useTheme } from "../context/theme/theme";
+
 interface Project {
   projectName: string;
   projectThumbnail: string;
@@ -13,22 +13,23 @@ interface Project {
   technologies: { name: string; icon: string; }[];
   projectPics: { image: string; description: string; }[];
   projectID: string;
-  description?: string; // Make description optional
-  platforms?: { name: string; icon: string; }[]; // Make platforms optional
+  description?: string;
+  platforms?: { name: string; icon: string; }[];
 }
 
 const Projects = () => {
-  // Type ProjectsData explicitly as Project[]
   const projects: Project[] = ProjectsData as Project[];
-  const {theme}=useTheme();
+  const { theme } = useTheme();
+
   return (
-    <div className={`${theme==="dark"?"bg-black":"bg-white"}`}>
+    <div className={`${theme === "dark" ? "bg-black" : "bg-white"}`}>
       <NavigationBar />
-      <section>
-        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold text-center tracking-wide dark:text-white">
+
+      <section className="py-8 px-4">
+        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold text-center tracking-wide dark:text-white mb-6">
           Frontend UI Projects
         </h1>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project: Project) =>
             project.category === "Frontend" ? (
               <Project
@@ -41,11 +42,12 @@ const Projects = () => {
           )}
         </div>
       </section>
-      <section>
-        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center dark:text-white">
+
+      <section className="py-8 px-4">
+        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center dark:text-white mb-6">
           Commercial Web Projects
         </h1>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project: Project) =>
             project.category === "Commercial" ? (
               <Project
@@ -58,11 +60,12 @@ const Projects = () => {
           )}
         </div>
       </section>
-      <section>
-        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center dark:text-white">
+
+      <section className="py-8 px-4">
+        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center dark:text-white mb-6">
           Personal Website Projects
         </h1>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project: Project) =>
             project.category === "Personal" ? (
               <Project
@@ -75,11 +78,12 @@ const Projects = () => {
           )}
         </div>
       </section>
-      <section>
-        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center dark:text-white">
+
+      <section className="py-8 px-4">
+        <h1 className="font-vitaSans text-blue-600 uppercase font-semibold tracking-wide text-center dark:text-white mb-6">
           Mobile Apps
         </h1>
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project: Project) =>
             project.category === "Mobile" ? (
               <Project
@@ -92,6 +96,7 @@ const Projects = () => {
           )}
         </div>
       </section>
+
       <Footer />
     </div>
   );
