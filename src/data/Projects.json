@@ -1,7 +1,7 @@
 [
   {
     "projectName": "QR Code Project",
-    "projectThumbnail": "/assets/Thumbnails/QR_Code.png",
+    "projectThumbnail": "/assets/Thumbnails/QR_Code.jpg",
     "projectLink": "https://magnificent-babka-310e7e.netlify.app/",
     "repoLink": "https://github.com/DarkGamer2/qr",
     "category": "Frontend",
@@ -109,7 +109,7 @@
   },
   {
     "projectName": "Nation Drivers Company Limited Website",
-    "projectThumbnail": "/assets/Thumbnails/National Drivers Company Limited Thumbnail.png",
+    "projectThumbnail": "/assets/Thumbnails/National Drivers Company Limited Thumbnail.jpg",
     "description": "A Full Stack Website built with React & Node JS for Nation Drivers Company Limited",
     "projectLink": "https://nation-drivers-company-limited-production.up.railway.app/",
     "repoLink": "https://github.com/DarkGamer2/Nation-Drivers-Company-Limited",
@@ -344,7 +344,7 @@
   },
   {
     "projectName": "Galactaneon Mobile",
-    "projectThumbnail": "/assets/Thumbnails/Galactaneon_Thumbnail.png",
+    "projectThumbnail": "/assets/Thumbnails/Galactaneon_Thumbnail.jpg",
     "description": "A mobile application built using Swift UI for iOS devices, based on my Galactaneon web project with added features such as community creation, etc.",
     "projectLink": "*",
     "repoLink": "https://github.com/DarkGamer2/Galactaneon-Mobile-iOS-With-Swift-",
