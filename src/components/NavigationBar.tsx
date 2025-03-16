@@ -2,7 +2,7 @@
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
@@ -25,7 +25,7 @@ const NavigationBar = () => {
               className="w-12 h-12 items-center justify-center"
             /> */}
               <h2 className="text-blue-600 font-lobster dark:text-indigo-600">
-                Neon Technologies 
+                <Link to ="https://neon-technologies-portfolio-production.up.railway.app/#/">Neon Technologies</Link>
               </h2>
               <div className="md:hidden">
                 <button
