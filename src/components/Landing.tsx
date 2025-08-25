@@ -1,11 +1,11 @@
 import HTML from "/assets/images/html5-icon-13.jpg";
 import CSS from "/assets/images/css3-icon-28.jpg";
 import JS from "/assets/images/javascript-icon-png-23.jpg";
-import reactIcon from "/assets/images/react.jpg";
-import Node from "/assets/images/node.jpg";
-import Express from "/assets/images/express.jpg";
-import Mongo from "/assets/images/Mongodb-PNG-Image-HD.jpg"
-import Tailwind from "/assets/images/tailwind.jpg";
+import reactIcon from "../assets/images/react.svg";
+import Node from "/assets/images/node.svg";
+import Express from "/assets/images/express.svg";
+import Mongo from "/assets/images/Mongodb-PNG-Image-HD.svg"
+import Tailwind from "/assets/images/tailwind.svg";
 import { useTheme } from "../context/theme/theme";
 
 const Landing = () => {
