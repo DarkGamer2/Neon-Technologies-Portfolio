@@ -252,7 +252,7 @@
   {
     "projectName": "Product Tracker",
     "projectThumbnail": "/assets/Thumbnails/ProductTrackerIcon.jpg",
-    "projectLink": "*",
+    "projectLink": "https://galactaneon-frontend-production.up.railway.app/",
     "repoLink": "https://github.com/DarkGamer2/ProductTracker",
     "category": "Mobile",
     "technologies": [
