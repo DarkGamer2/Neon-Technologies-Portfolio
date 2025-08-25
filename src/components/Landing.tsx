@@ -32,7 +32,7 @@ const Landing = () => {
                 className="w-20 h-20 object-contain" 
                 src={iconPath} 
                 alt="tech stack"
-                onError={(e) => console.log(`Failed to load: ${iconPath}`)} // Debug helper
+                onError={() => console.log(`Failed to load: ${iconPath}`)} // Debug helper
               />
             </div>
           ))}
